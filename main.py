@@ -32,6 +32,9 @@ def operar():
         resultado=0
     label.config(text=str(resultado))
 
+def save(n)
+    global num
+    num.append(n)
 
 
 
