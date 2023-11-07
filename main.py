@@ -52,6 +52,6 @@ boton_punto =          Button(root, text=".", width=9, height=3, bg="spring gree
 boton_mas =            Button(root, text="+",command=lambda: operador("+"), width=9, height=3, bg="deep sky blue", fg="black", borderwidth=0, cursor="hand2").grid(row=1, column=4, padx=1, pady=1)
 boton_menos =          Button(root, text="-",command=lambda: operador("-"), width=9, height=3, bg="deep sky blue", fg="black", borderwidth=0, cursor="hand2").grid(row=2, column=4, padx=1, pady=1)
 boton_multiplicacion = Button(root, text="*",  command=lambda: operador("*"),width=9, height=3, bg="deep sky blue", fg="black", borderwidth=0, cursor="hand2").grid(row=3, column=4, padx=1, pady=1)
-boton_division =       Button(root, text="/", width=9, height=3, bg="deep sky blue", fg="black", borderwidth=0, cursor="hand2").grid(row=***, column=***, padx=1, pady=***)
+boton_division =       Button(root, text="/", command=lambda: operador("/"), width=9, height=3, bg="deep sky blue", fg="black", borderwidth=0, cursor="hand2").grid(row=4, column=4, padx=1, pady=1)
 
 root.mainloop()
