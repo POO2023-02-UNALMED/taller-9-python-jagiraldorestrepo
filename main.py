@@ -26,6 +26,11 @@ def operar():
         res = num[-2]-num[-1]
     elif op[-1]=="*":
         res=num[-2]*num[-1]
+    elif op[-1]=="/" and num[-1]!=0:
+        resultado=num[-2]/num[-1]   
+    else:
+        resultado=0
+    label.config(text=str(resultado))
 
 
 
