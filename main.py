@@ -1,4 +1,4 @@
-from tkinter import Tk, Button, Entry
+from tkinter import Tk, Button, Entry, Label
 
 # Configuración ventana principal
 root = Tk()
@@ -32,7 +32,7 @@ def operar():
         resultado=0
     label.config(text=str(resultado))
 
-def save(n)
+def save(n):
     global num
     num.append(n)
 
