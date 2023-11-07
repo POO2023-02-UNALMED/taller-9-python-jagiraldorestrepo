@@ -2,13 +2,13 @@ from tkinter import Tk, Button, Entry
 
 # Configuración ventana principal
 root = Tk()
-root.title(***)
+root.title("Calculadora POO")
 root.resizable(0,0)
-root.geometry(***)
+root.geometry("295x250")
 
 # Configuración pantalla de salida 
 pantalla = Entry(root, width=40, bg="black", fg="white", borderwidth=0, font=("arial", 18, "bold"))
-pantalla.grid(row=0, column=0, columnspan=***, padx=1, pady=***)
+pantalla.grid(row=0, column=0, columnspan=10, padx=1, pady=1)
 
 # Configuración botones
 boton_1 = Button(root, text="1", width=9, height=3, bg="white", fg="red", borderwidth=0, cursor="hand2").grid(row=1, column=***, padx=1, pady=***)
