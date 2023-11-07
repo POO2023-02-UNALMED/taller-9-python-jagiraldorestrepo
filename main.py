@@ -13,7 +13,20 @@ label = Label(pantalla, width = 40 , height = 2, bg = "black", fg = "white", bor
 num = [0,0]
 op = ["+"]
 
-def operador
+def operador(p):
+    global op
+    op.append(p)
+
+def operar():
+    global op
+    global num
+    if op[-1] == "+":
+        res = num[-1]+num[-2]
+    elif op[-1] == "-":
+        res = num[-2]-num[-1]
+    elif op[-1]=="*":
+        res=num[-2]*num[-1]
+
 
 
 
